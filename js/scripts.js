@@ -1,6 +1,23 @@
-function countBy(num1, num2) {
-    if ((num1.trim().length === 0) && (num2.trim().length === 0))
+function countDracula(countTo, countBy) {
+    const parsedInteger = parseInt(countTo);
+    const parsedInteger2 = parseInt(countBy);
+    if ((countTo.trim().length === 0) && (countBy.trim().length === 0))
         return null;
-}
-;
-console.log(countBy("", ""));
+    if (countBy.trim().length === 0) {
+        return countTo;
+    }
+};
+console.log(countDracula("", ""));
+
+// if(num1 !== "") {
+//   for(i=0; i < "countTo"; i+= countBy )
+// })
+
+// if soemthing is in countTo and something is in countBy return 
+
+
+
+
+
+
+
