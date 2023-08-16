@@ -9,7 +9,7 @@ Describe: countBy()
 
 Test #1
 
-Test: "It should return 0 occurrences of a word for an empty string."
+Test: "It should return 0 when inputs are empty"
 Code:
 const num1 = "";
 const num2 = "";
