@@ -33,3 +33,12 @@ const countTo = "30";
 const countBy = "5";
 countDracula(countTo, countBy);
 Expected Output: 30;
+
+Test #4
+
+Test: "It should count by multiples according to the value of the countBy variable"
+Code:
+const countTo = "30";
+const countBy = "5";
+countDracula(countTo, countBy);
+Expected Output: 5,10,15,20,25,30;
